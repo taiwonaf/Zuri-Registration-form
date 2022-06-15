@@ -158,4 +158,8 @@ form p span {
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    input {
+        font-size: 14px;
+    }
 }
