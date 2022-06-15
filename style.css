@@ -28,6 +28,10 @@ body {
     background-color: var(--Red);
 }
 
+body {
+    padding: 20px;
+}
+
 .main-wrapper {
     max-width: 1110px;
     display: flex;
@@ -36,28 +40,27 @@ body {
 }
 
 .left-side {
-    width: 50%;
-    margin-right: 55px;
+    width: 490px;
+    margin-right: 70px;
 }
 
 .right-side {
-    width: 50%;
-    margin-left: 15px;
+    width: 540px;
 }
 
 .left-side h1 {
     line-height: 1.1;
-    max-width: 421px;
+    width: 421px;
     color: white;
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
 .left-side p {
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
     margin-top: 30px;
-    max-width: 495px;
+    width: 500px;
     line-height: 1.5;
 }
 
@@ -112,4 +115,47 @@ form p span {
     color: var(--Red);
     font-weight: bold;
     text-align: center;
+}
+
+@media (max-width: 1120px) {
+    body {
+        padding: 0px 20px;
+        height: 900px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main .main-wrapper {
+        flex-direction: column;
+    }
+
+    .left-side {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .right-side {
+        text-align: center;
+        margin: 40px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .left-side h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .left-side p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .right-side .heading {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
