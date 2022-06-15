@@ -46,9 +46,45 @@ body {
 }
 
 .left-side h1 {
-    max-width: 410px;
+    line-height: 1.1;
+    max-width: 421px;
     color: white;
     font-size: 50px;
     font-weight: 700;
 }
 
+.left-side p {
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+    max-width: 495px;
+    line-height: 1.5;
+}
+
+
+.right-side .heading {
+    background-color: var(--Blue);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+input {
+    padding: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--Grayish-Blue);
+    font-weight: 700;
+    font-size: 15px;
+    outline-color: var(--Dark-Blue);
+}
